@@ -25,6 +25,7 @@
 	font-family: 'Playfair Display', serif;
 	font-size: 4vmin;
 	text-shadow: 1px 1px 3px #000000;
+	margin-bottom: 1.5vmin;
 }
 
 .warn {
@@ -49,11 +50,11 @@ b .bold {
 
 body {
 	height: 100vh;
-	background-image: url(img/corner1.png), url(img/corner2.png), url(img/bg2.jpg);  
-	background-position: bottom left, top right, center;
-	background-repeat: no-repeat, no-repeat, repeat;
-	background-size: 557px 284px, 388px 380px, contain;
-	background-attachment: fixed, fixed, local; 
+	background-image: url(img/corner2.png), url(img/bg2.jpg);  
+	background-position: top right, center;
+	background-repeat: no-repeat, repeat;
+	background-size: 388px 380px, contain;
+	background-attachment: local, local; 
 }
 html { height: 100% }
 
