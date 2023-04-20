@@ -1,0 +1,41 @@
+
+.center {
+	text-align: center;
+	padding-top: 10vh;
+}
+
+.header {
+	color: white;
+	font-family: 'Tangerine', cursive;
+	font-size: 12vmin;
+	text-shadow: 2px 2px 6px #000000;
+}
+
+.handwriting {
+	color: white;
+	font-family: 'Tangerine', cursive;
+	font-size: 8vmin;
+	text-shadow: 2px 2px 6px #000000;
+}
+
+.text {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 4vmin;
+	text-shadow: 1px 1px 4px #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+	height: 100vh;
+	background-image: url(img/corner1.png), url(img/corner2.png), url(img/bg2.jpg);  
+	background-position: bottom left, top right, center;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-size: 557px 284px, 388px 380px, contain;
+  
+}
+html { height: 100% }
