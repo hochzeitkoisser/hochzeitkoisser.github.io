@@ -24,12 +24,17 @@
 	color: white;
 	font-family: 'Playfair Display', serif;
 	font-size: 4vmin;
-	text-shadow: 1px 1px 4px #000000;
+	text-shadow: 1px 1px 2px #000000;
 }
 
 .warn {
 	color: #dfff80;
 	font-size: 5vmin;
+	font-weight: 700;
+}
+
+.big {
+	font-size: 4.5vmin;
 	font-weight: 700;
 }
 
@@ -55,4 +60,20 @@ html { height: 100% }
 img {
 	border-radius: 10%;
 	width: 80vmin;
+}
+
+a:link {
+  color: #b5c7ff;
+}
+
+a:visited {
+  color: #d3c5fc;
+}
+
+a:hover {
+  color: #dae1f7;
+}
+
+a:active {
+  color: #dae1f7;
 }
