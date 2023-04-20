@@ -2,6 +2,8 @@
 .center {
 	text-align: center;
 	padding-top: 10vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 
 .header {
@@ -14,7 +16,7 @@
 .handwriting {
 	color: white;
 	font-family: 'Tangerine', cursive;
-	font-size: 8vmin;
+	font-size: 10vmin;
 	text-shadow: 2px 2px 6px #000000;
 }
 
@@ -23,6 +25,16 @@
 	font-family: 'Playfair Display', serif;
 	font-size: 4vmin;
 	text-shadow: 1px 1px 4px #000000;
+}
+
+.warn {
+	color: #dfff80;
+	font-size: 5vmin;
+	font-weight: 700;
+}
+
+b .bold {
+	font-weight: 700;
 }
 
 * {
@@ -36,6 +48,11 @@ body {
 	background-position: bottom left, top right, center;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 557px 284px, 388px 380px, contain;
-  
+	background-attachment: fixed, fixed, local; 
 }
 html { height: 100% }
+
+img {
+	border-radius: 10%;
+	width: 80vmin;
+}
